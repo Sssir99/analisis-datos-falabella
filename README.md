@@ -7,7 +7,7 @@ El repositorio reúne el trabajo de la Evidencia de Aprendizaje 1 (análisis del
 ## Integrantes
 
 - Santiago Sanchez Salazar
-<!-- agregar aquí a los demás integrantes del grupo -->
+- Anderson Gaviria Bedoya
 
 ## Qué contiene el repositorio
 
