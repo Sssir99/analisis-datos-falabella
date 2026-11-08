@@ -59,3 +59,17 @@ El notebook necesita Chrome instalado, porque Selenium lo abre para leer cada p�
 - pandas
 - matplotlib
 - requests + BeautifulSoup (verificación y comparación)
+
+## Control de versiones
+
+El proyecto se versionó con Git y se publicó en GitHub. Para dejarlo conectado desde ceros se usaron estos comandos, ejecutados en la terminal de VS Code sobre la carpeta del proyecto:
+
+```bash
+git init -b main
+git remote add origin https://github.com/Sssir99/analisis-datos-falabella.git
+git add README.md
+git commit -m "docs: descripción del proyecto y dependencias"
+git push -u origin main
+```
+
+Cada cambio se sube con su propio commit y un mensaje que dice qué se hizo (`feat:`, `docs:`, `data:`, `chore:`). Los cambios nuevos se trabajan en una rama aparte y se integran a `main` con un Pull Request, para que el historial quede ordenado y se pueda ver qué cambió y por qué.
